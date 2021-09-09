@@ -21,3 +21,7 @@ Route::get('/about', function () {
     return view('about');
 })->name('chi-siamo');
 
+Route::get('/contatti', function () {
+    return view('contatti');
+})->name('contatti');
+

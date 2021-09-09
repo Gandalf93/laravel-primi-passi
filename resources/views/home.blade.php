@@ -16,13 +16,14 @@
         
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Hello world
                 </div>
 
                 <div class="links">
-                    <a href="{{ route('homepage')}}">Home</a>
-                    <a href="{{ route('chi-siamo')}}">About</a>
-                    <a href="">Contatti</a>
+                    <a href="{{route('homepage')}}">Home</a>
+                    <a href="{{route('chi-siamo')}}">About</a>
+                    <a href="{{route('contatti')}}">Contatti</a>
+                    
                    
                 </div>
             </div>
