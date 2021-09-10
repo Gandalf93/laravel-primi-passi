@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>About us</h1>
+    <h1>{{$title}}</h1>
 </body>
 </html>

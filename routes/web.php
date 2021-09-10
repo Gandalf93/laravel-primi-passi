@@ -18,10 +18,16 @@ Route::get('/', function () {
 })->name('homepage');
 
 Route::get('/about', function () {
-    return view('about');
+    $data = [
+        'title' => 'pagina about',
+    ];
+    return view('about', $data);
 })->name('chi-siamo');
 
 Route::get('/contatti', function () {
-    return view('contatti');
+    $data = [
+        'title' => 'contatti',
+    ];
+    return view('contatti', $data);
 })->name('contatti');
 
